@@ -60,6 +60,7 @@ feudal_governments = {
 					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
 				}
 			}
+<<<<<<< HEAD
 			NOT = {
                 OR = {
                     culture_group = californian
@@ -78,6 +79,25 @@ feudal_governments = {
 					religion = strangite
 					religion = neogodbeite
 				}
+=======
+			NOR = {
+				religion = cetic 
+				religion = imamite 
+				religion = qingzhen
+				religion = californite
+				religion = pioneers
+				religion = traditionalist
+				religion = revivalist
+				religion = misrist
+				religion = orientalist
+				religion = alawiyya
+				culture_group = californian
+				culture = californio
+				culture = chino
+				culture = battleborn
+				culture = hawaiian
+				culture = siskiyouan
+>>>>>>> parent of 2805857... Update feudal_governments.txt
 			}
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = mormon_government }
