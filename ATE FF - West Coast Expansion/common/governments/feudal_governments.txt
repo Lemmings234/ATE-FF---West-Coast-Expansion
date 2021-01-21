@@ -71,12 +71,6 @@ feudal_governments = {
 				religion = misrist
 				religion = orientalist
 				religion = alawiyya
-				culture_group = californian
-				culture = californio
-				culture = chino
-				culture = battleborn
-				culture = hawaiian
-				culture = siskiyouan
 			}
 
 			NOT = { is_government_potential = roman_imperial_government }
