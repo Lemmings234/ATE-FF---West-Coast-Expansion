@@ -60,19 +60,25 @@ feudal_governments = {
 					has_religion_features = no # Old saves, and campaigns without HF, need the Fylkirate to continue working
 				}
 			}
-			NOR = {
-				religion = cetic 
-				religion = imamite 
-				religion = qingzhen
-				religion = californite
-				religion = pioneers
-				religion = traditionalist
-				religion = revivalist
-				religion = misrist
-				religion = orientalist
-				religion = alawiyya
+			NOT = {
+                OR = {
+                    culture_group = californian
+                    culture = californio
+                    culture = chino
+                    culture = battleborn
+                    culture = hawaiian
+                    culture = siskiyouan
+                }
+                NOR = {
+					religion = atomicist
+					religion = gaian
+					religion = mormon
+					religion = alawiyya
+					religion = woolleyite
+					religion = strangite
+					religion = neogodbeite
+				}
 			}
-
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = mormon_government }
 			NOT = { is_government_potential = order_government }
