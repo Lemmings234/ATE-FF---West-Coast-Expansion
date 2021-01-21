@@ -2094,7 +2094,6 @@ latter_day_saints = {
 			SATAN LUCIFER THE_DEVIL
 		}
 		
-		investiture = yes
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
@@ -2112,6 +2111,7 @@ latter_day_saints = {
 		intermarry = strangite
 		intermarry = woolleyite
 		intermarry = mormon
+		intermarry = californite
 		intermarry = cetic
 		intermarry = gaian
 	}
