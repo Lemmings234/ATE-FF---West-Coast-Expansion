@@ -65,7 +65,6 @@ feudal_governments = {
 				religion = imamite 
 				religion = qingzhen
 				religion = californite
-				religion = pioneerist
 				religion = traditionalist
 				religion = revivalist
 				religion = misrist
@@ -250,7 +249,6 @@ feudal_governments = {
 			religion_group = latter_day_saints
 			NOT = { religion = neogodbeite }
 			NOT = { religion = californite }
-			NOT = { religion = pioneerist }
 			NOT = { is_government_potential = colonial_government }
 			NOT = { is_government_potential = roman_imperial_government }
 			NOT = { is_government_potential = order_government }
@@ -349,7 +347,6 @@ feudal_governments = {
 				religion = qingzhen
 				religion = imamite
 				religion = californite
-				religion = pioneerist
 				culture_group = californian
 				culture = californio
 				culture = chino

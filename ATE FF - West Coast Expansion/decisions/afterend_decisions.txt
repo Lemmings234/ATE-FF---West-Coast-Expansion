@@ -1441,6 +1441,7 @@ decisions = {
 			OR = {
 				religion = imamite
 				religion = qingzhen
+				religion = californite
 			}
 			NOT = { trait = sympathy_pacific }
 			NOT = { trait = zealous }
