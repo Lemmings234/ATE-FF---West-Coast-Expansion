@@ -1,0 +1,32 @@
+queer_allies_bloodline_male = {
+	monthly_character_prestige = 0.5
+	homosexual_opinion = 5
+	opinion_of_homosexual = 5
+	bisexual_opinion = 5
+	opinion_of_bisexual = 5
+	opinion_of_homosexualmarried_mm = 10
+	opinion_of_homosexualmarried_mp = 10
+	opinion_of_homosexualmarried_ff = 10
+	opinion_of_homosexualmarried_fp = 10
+	opinion_of_adopted_child = 15
+	inheritance = patrilineal
+	allow_bastard = yes
+	picture = GFX_bloodlines_symbol_cetic
+	flag = { created_bloodline bloodline_queer_allies }
+}
+queer_allies_bloodline_female = {
+	monthly_character_prestige = 0.5
+	homosexual_opinion = 5
+	opinion_of_homosexual = 5
+	bisexual_opinion = 5
+	opinion_of_bisexual = 5
+	opinion_of_homosexualmarried_mm = 10
+	opinion_of_homosexualmarried_mp = 10
+	opinion_of_homosexualmarried_ff = 10
+	opinion_of_homosexualmarried_fp = 10
+	opinion_of_adopted_child = 15
+	inheritance = matrilineal
+	allow_bastard = yes
+	picture = GFX_bloodlines_symbol_cetic
+	flag = { created_bloodline bloodline_queer_allies }
+}

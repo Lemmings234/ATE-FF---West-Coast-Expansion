@@ -2419,6 +2419,7 @@ oldworld = {
 		intermarry = aphite
 		intermarry = consumerist
 		intermarry = monetarist
+		intermarry = meritist
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
 	}
@@ -2464,6 +2465,7 @@ oldworld = {
 		intermarry = aphite
 		intermarry = consumerist
 		intermarry = monetarist
+		intermarry = meritist
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
 	}
@@ -2507,6 +2509,7 @@ oldworld = {
 		intermarry = aphite
 		intermarry = consumerist
 		intermarry = monetarist
+		intermarry = meritist
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
 	}
@@ -2556,6 +2559,7 @@ oldworld = {
 		intermarry = aphite
 		intermarry = consumerist
 		intermarry = monetarist
+		intermarry = meritist
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
 		
@@ -2611,6 +2615,7 @@ oldworld = {
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
 		intermarry = monetarist
+		intermarry = meritist
 	}
 	
 	monetarist = { #...
@@ -2656,6 +2661,53 @@ oldworld = {
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
 		intermarry = consumerist
+		intermarry = meritist
+	}
+	meritist = { #...
+		graphical_culture = hellenicgfx
+		
+		icon = 17
+		heresy_icon = 18
+		
+		color = { 0.1 0.4 0.1 }
+		
+		interface_skin = { consumerist_interface oldworld_interface }
+		
+		parent = consumerist
+		
+
+		god_names = {
+			GOD_THE_DOLLAR GOD_THE_INVISIBLE_HAND GOD_THE_FREE_MARKET GOD_MAMMON
+		}
+
+		can_grant_divorce = yes
+		allow_viking_invasion = yes
+		can_grant_invasion_cb = invasion
+		allow_rivermovement = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		
+		uses_jizya_tax = no
+		max_wives = 1
+		feminist = yes
+		female_temple_holders = yes
+		
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+		
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+		
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = rust_cultist
+		intermarry = chrome_cultist
+		intermarry = consumerist
+		intermarry = monetarist
+		intermarry = meritist
 	}
 
 	atomicist = { #
@@ -2702,6 +2754,7 @@ oldworld = {
 		
 		intermarry = consumerist
 		intermarry = monetarist
+		intermarry = meritist
 		intermarry = aphite
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
@@ -2765,6 +2818,7 @@ oldworld = {
 		
 		intermarry = consumerist
 		intermarry = monetarist
+		intermarry = meritist
 		intermarry = cetic
 		intermarry = rust_cultist
 		intermarry = chrome_cultist
@@ -2809,6 +2863,7 @@ oldworld = {
 		
 		intermarry = consumerist
 		intermarry = monetarist
+		intermarry = meritist
 		intermarry = atomicist
 		intermarry = aphite
 		intermarry = chrome_cultist
