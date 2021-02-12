@@ -1532,7 +1532,7 @@ d_meritist = {
 	allow = {
 		OR = {
 			religion = meritist
-			wealth = 200
+			wealth = 2000
 			#lowered barriers for entry and added an obvious requirement
 		}
 		NOT = { has_global_flag = consumerist_revolt_ongoing }
