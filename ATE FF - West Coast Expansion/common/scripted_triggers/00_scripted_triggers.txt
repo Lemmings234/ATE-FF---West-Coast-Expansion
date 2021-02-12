@@ -2095,6 +2095,7 @@ female_can_hold_minor_title_trigger = {
 						religion = neomayan
 						religion = americanist
 						religion = libertarian
+						religion = meritist
 					}
 					liege = { religion = ROOT }
 				}
