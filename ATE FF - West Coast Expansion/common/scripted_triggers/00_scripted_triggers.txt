@@ -2166,6 +2166,7 @@ female_can_hold_minor_commander_title_trigger = {
 						religion = sol_invicta
 						religion = neomayan
 						religion = reform
+						religion = meritist
 					}
 					liege = { religion = ROOT }
 				}
